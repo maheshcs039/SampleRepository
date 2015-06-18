@@ -8,12 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "Character.h"
-#import "Item.h"
 @interface GuildBrowserLogicTests : XCTestCase
 {
-    NSDictionary *_characterDetailJson;
-    Character *_testGuy;
+
 
 }
 @end
