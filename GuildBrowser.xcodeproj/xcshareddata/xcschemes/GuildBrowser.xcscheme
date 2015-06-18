@@ -42,9 +42,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C8BFFFE41B32897700B68A0F"
+               BlueprintIdentifier = "C8BF003B1B32C83D00B68A0F"
                BuildableName = "GuildBrowserLogicTests.xctest"
                BlueprintName = "GuildBrowserLogicTests"
+               ReferencedContainer = "container:GuildBrowser.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C8BF004A1B32C94E00B68A0F"
+               BuildableName = "GuildBrowserTests.xctest"
+               BlueprintName = "GuildBrowserTests"
                ReferencedContainer = "container:GuildBrowser.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -63,6 +77,16 @@
                BlueprintIdentifier = "C8BF001D1B32C66100B68A0F"
                BuildableName = "GuildBrowser Tests.xctest"
                BlueprintName = "GuildBrowser Tests"
+               ReferencedContainer = "container:GuildBrowser.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C8BF004A1B32C94E00B68A0F"
+               BuildableName = "GuildBrowserTests.xctest"
+               BlueprintName = "GuildBrowserTests"
                ReferencedContainer = "container:GuildBrowser.xcodeproj">
             </BuildableReference>
          </TestableReference>
