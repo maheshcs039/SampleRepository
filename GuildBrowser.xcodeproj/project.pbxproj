@@ -13,8 +13,6 @@
 		C8BFFFF31B328C9F00B68A0F /* Guild.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1F15E9B34900B3713E /* Guild.m */; };
 		C8BFFFF41B328C9F00B68A0F /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2315E9B34900B3713E /* Item.m */; };
 		C8BFFFF51B328C9F00B68A0F /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
-		C8BFFFF71B32A37500B68A0F /* WowUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BFFFF61B32A37500B68A0F /* WowUtilsTests.m */; };
-		C8BFFFFB1B32A5B300B68A0F /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BFFFFA1B32A5B300B68A0F /* CharacterTests.m */; };
 		CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */; };
@@ -91,8 +89,6 @@
 		C8BFFFE51B32897700B68A0F /* GuildBrowserLogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuildBrowserLogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BFFFE81B32897800B68A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8BFFFE91B32897800B68A0F /* GuildBrowserLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuildBrowserLogicTests.m; sourceTree = "<group>"; };
-		C8BFFFF61B32A37500B68A0F /* WowUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowUtilsTests.m; sourceTree = "<group>"; };
-		C8BFFFFA1B32A5B300B68A0F /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTests.m; sourceTree = "<group>"; };
 		CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuildBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FDC3F15E9872D00B3713E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB9FDC4115E9872D00B3713E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -228,8 +224,6 @@
 			isa = PBXGroup;
 			children = (
 				C8BFFFE91B32897800B68A0F /* GuildBrowserLogicTests.m */,
-				C8BFFFFA1B32A5B300B68A0F /* CharacterTests.m */,
-				C8BFFFF61B32A37500B68A0F /* WowUtilsTests.m */,
 				C8BFFFE71B32897800B68A0F /* Supporting Files */,
 			);
 			path = GuildBrowserLogicTests;
@@ -563,8 +557,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8BFFFF21B328C9F00B68A0F /* Character.m in Sources */,
-				C8BFFFFB1B32A5B300B68A0F /* CharacterTests.m in Sources */,
-				C8BFFFF71B32A37500B68A0F /* WowUtilsTests.m in Sources */,
 				C8BFFFF31B328C9F00B68A0F /* Guild.m in Sources */,
 				C8BFFFF41B328C9F00B68A0F /* Item.m in Sources */,
 				C8BFFFF51B328C9F00B68A0F /* WoWUtils.m in Sources */,
